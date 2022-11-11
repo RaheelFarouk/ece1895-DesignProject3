@@ -1,3 +1,5 @@
-Record=TopLevelDocument|FileName=CAN Module.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=CAN Module.SchDoc|FileName=Ethernet Module.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=CAN Module.SchDoc|FileName=Microprocessor Module.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=CAN Module.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=CAN Module.SchDoc|FileName=Ethernet Module.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=CAN Module.SchDoc|FileName=Microprocessor Module (328).SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=CAN Module.SchDoc|FileName=Microprocessor Module_0.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CAN Module.SchDoc|FileName=Microprocessor Module_1.SchDoc|SheetNumber=2
