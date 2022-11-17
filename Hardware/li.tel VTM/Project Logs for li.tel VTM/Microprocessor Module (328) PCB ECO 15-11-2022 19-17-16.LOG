@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=Y NewDesignator=Y1
+Change Component Designator: OldDesignator=Y? NewDesignator=Y2
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component J? SAMTEC-TSW-106-07-X-SJ
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component J? SAMTEC-TSW-106-07-X-SJ
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component R? 10k
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component R? 10k
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component Term Res 120R

@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=J? NewDesignator=Left Comms
+Change Component Designator: OldDesignator=J? NewDesignator=Right Comms
+Added Member To Class: ClassName=VTM Ethernet Module Member=Component Left Comms SAMTEC-TSW-106-07-X-SJ
+Added Member To Class: ClassName=VTM Ethernet Module Member=Component Q4 BSS138

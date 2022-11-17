@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=Controller NewDesignator=U?
+Change Component Designator: OldDesignator=ICSP Header NewDesignator=ICSP Header?
+Change Component Designator: OldDesignator=Transciever NewDesignator=U?
+Change Pin Designator/Name:  Old Designator=C?-2 Old Name=2 New Designator =2 New Name=2

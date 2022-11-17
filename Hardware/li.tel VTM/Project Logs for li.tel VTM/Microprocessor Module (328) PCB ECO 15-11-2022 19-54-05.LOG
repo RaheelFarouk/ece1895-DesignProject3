@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Microprocessor Module (328) Member=U?
+Change Component Designator: OldDesignator=SW? NewDesignator=RST
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component R? 10k
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component Term Res 120R

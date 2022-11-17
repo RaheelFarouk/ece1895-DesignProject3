@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=GND Pin=3v3 Reg-01
+Removed Pin From Net: NetName=3v3 Pin=3v3 Reg-02
+Removed Pin From Net: NetName=VCC Pin=3v3 Reg-03
+Change Component Footprint: Designator=3v3 Reg Old Footprint=SAMTEC_TSW-103-07-F-S New Footprint=STM-TO220-3
+Change Component Comment : Designator=3v3 Reg Old Comment=TSW-103-07-F-S New Comment=LD1117V33
+Change Component Designator: OldDesignator=ICSP Header NewDesignator=ICSP
+Change Component Designator: OldDesignator=SPI Header NewDesignator=SPI
+Change Managed Component Library Link : Designator=3v3 Reg Old VaultGUID= New VaultGUID=021B6130-F3F8-421A-8507-87BE5B622805 Old ItemGUID= New ItemGUID=AFE63D1E-D8F5-4C83-9124-B1A1DC07CABD Old RevisionGUID= New RevisionGUID=D23BE35C-EE1D-470C-A91C-58A2F8D4AEBA
+Change component parameters: Designator = "3v3 Reg" ("3v3 Reg"); Footprint = "SAMTEC_TSW-103-07-F-S"; UniqueID = "\WRQWAMTD" ("\WRQWAMTD")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "TO-220-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1776449.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. A, 07/2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dropout Voltage"; Value = "1.1V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.st.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Input Voltage"; Value = "15V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Ouput Current"; Value = "800mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage"; Value = "15V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Input Voltage"; Value = "4.4V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "0°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage"; Value = "4.75V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Nominal Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Current"; Value = "1.3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Outputs"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "50"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Rail/Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "12W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=U?(TO220)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000544.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/PACKAGE_INFORMATION/CD00004649.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1/11/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "TO, Thru-Hole, Vertical, Heatsink Mounted; 3 In-Line Leads; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TO220"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "ver3.0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=3v3 Reg-1
+Added Pin To Net: NetName=3v3 Pin=3v3 Reg-2
+Added Pin To Net: NetName=VCC Pin=3v3 Reg-3
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component R? 10k
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component Term Res 120R
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component U? LD1117V50

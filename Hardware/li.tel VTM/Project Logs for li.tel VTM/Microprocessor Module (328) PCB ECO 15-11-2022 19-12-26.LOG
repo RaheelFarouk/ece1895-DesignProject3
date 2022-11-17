@@ -1,0 +1,27 @@
+Change Component Designator: OldDesignator=3v3 Header NewDesignator=3v3 Reg
+Change Component Designator: OldDesignator=? NewDesignator=5v0 Reg
+Change Component Designator: OldDesignator=ICSP Header? NewDesignator=ICSP Header
+Change Component Designator: OldDesignator=J? NewDesignator=CAN
+Change Component Designator: OldDesignator=J? NewDesignator=Spare
+Change Component Designator: OldDesignator=J? NewDesignator=SPI Header
+Change Component Designator: OldDesignator=Power In? NewDesignator=Power In
+Change Component Designator: OldDesignator=U? NewDesignator=CAN Controller
+Change Component Designator: OldDesignator=U? NewDesignator=CAN Transciever
+Added Component: Designator=Serial Prog(SAMTEC-TSW-106-07-X-S)
+Added Pin To Net: NetName=RESET Pin=Serial Prog-1
+Added Pin To Net: NetName=D1 Pin=Serial Prog-2
+Added Pin To Net: NetName=D0 Pin=Serial Prog-3
+Added Pin To Net: NetName=VCC Pin=Serial Prog-4
+Added Pin To Net: NetName=GND Pin=Serial Prog-6
+Change Net Name : Old Net Name=Net?_1 New Net Name=Net5v0 Reg_1
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetCAN Controller_17
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetCAN Transciever_8
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component CAN SAMTEC-TSW-102-07-X-SJ
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component CAN Transciever MCP2551-E/P
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component J? SAMTEC-TSW-106-07-X-SJ
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component R? 10k
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component R? 10k
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component Serial Prog SAMTEC-TSW-106-07-X-SJ
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component Spare TSW-120-05-G-S
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component SPI Header TSW-103-07-F-D
+Added Member To Class: ClassName=Microprocessor Module (328) Member=Component Term Res 120R

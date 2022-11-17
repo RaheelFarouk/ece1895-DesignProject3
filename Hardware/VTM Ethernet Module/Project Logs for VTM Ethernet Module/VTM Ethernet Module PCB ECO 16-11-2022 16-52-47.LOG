@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=Q? NewDesignator=Q2
+Change Component Designator: OldDesignator=Q? NewDesignator=Q3
+Change Component Designator: OldDesignator=Q? NewDesignator=Q4
+Change Component Designator: OldDesignator=Q? NewDesignator=Q5
+Added Member To Class: ClassName=VTM Ethernet Module Member=Component J? SAMTEC-TSW-106-07-X-SJ
+Added Member To Class: ClassName=VTM Ethernet Module Member=Component Q1 BSS138
+Added Member To Class: ClassName=VTM Ethernet Module Member=Component Q2 BSS138
+Added Member To Class: ClassName=VTM Ethernet Module Member=Component Q3 BSS138
+Added Member To Class: ClassName=VTM Ethernet Module Member=Component Q5 BSS138
