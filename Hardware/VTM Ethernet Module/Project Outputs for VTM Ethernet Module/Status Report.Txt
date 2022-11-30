@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [VTM Ethernet Module.PrjPcb]
+   Generated File[VTM Ethernet Module.TXT]
+   Generated File[VTM Ethernet Module.LDP]
+   Generated File[VTM Ethernet Module.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:53:47 On 17/11/2022

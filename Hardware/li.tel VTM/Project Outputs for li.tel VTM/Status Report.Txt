@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [li.tel VTM.PrjPcb]
+   Generated File[Microprocessor Module (328).TXT]
+   Generated File[Microprocessor Module (328).LDP]
+   Generated File[Microprocessor Module (328).DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 16:52:32 On 17/11/2022

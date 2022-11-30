@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Raheel Farouk\Documents\!University Work\2022 Fall\ECE1185\Design Project 3\li.tel-VTM\Hardware\VTM Ethernet Module\VTM Ethernet Module.PcbDoc
+PCB File : C:\Users\Raheel Farouk\Documents\!University Work\2022 Fall\ECE1185\Design Project 3\ece1895-DesignProject3\Hardware\VTM Ethernet Module\VTM Ethernet Module.PcbDoc
 Date     : 17/11/2022
-Time     : 15:08:54
+Time     : 17:51:04
 
 Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Top Layer')),(All)
 Rule Violations :0

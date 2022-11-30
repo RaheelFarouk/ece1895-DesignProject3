@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Microprocessor Module (328).PcbDoc   17/11/2022  16:52:32
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Microprocessor Module (328).TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      20mil (0.5mm)                                             Round             5         PTH        3.99inch (101.46mm)
+T2      28mil (0.701mm)                                           Round             6         PTH        1.55inch (39.35mm)
+T3      32mil (0.8mm)                                             Round             10        PTH        5.03inch (127.83mm)
+T4      35mil (0.899mm)                                           Round             54        PTH        8.16inch (207.31mm)
+T5      39mil (1.001mm)                                           Round             7         PTH        2.11inch (53.59mm)
+T6      40mil (1.021mm)                                           Round             56        PTH        9.39inch (238.59mm)
+T7      43mil (1.1mm)                                             Round             11        PTH        8.44inch (214.27mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              149
+
+Total Processing Time (hh:mm:ss) : 00:00:00
