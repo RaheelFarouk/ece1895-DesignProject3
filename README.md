@@ -43,9 +43,9 @@ At this time, I haven't decided what to do with the client-side interface; howev
 
 For the initial prototype stage, I used an Arduino UNO with the Ethernet shield and the CAN shield.
 
-![](RackMultipart20221216-1-2rpgig_html_75dd1d33db2113a6.png)
+![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image001.png)
 
-![](RackMultipart20221216-1-2rpgig_html_674ca588881e5c58.jpg)
+![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image002.png)
 
 ## Software
 
