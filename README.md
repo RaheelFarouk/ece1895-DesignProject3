@@ -45,7 +45,7 @@ For the initial prototype stage, I used an Arduino UNO with the Ethernet shield 
 
 ![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image001.png)
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image002.png)
+![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image003.png)
 
 ## Software
 
@@ -53,84 +53,84 @@ I split this prototyping stage up into three parts. Firstly, I got the Arduino t
 
 #### Reading CAN data using the Arduino
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image003.jpg)
+![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image005.jpg)
 _Receive Code Snippet_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image004.jpg)
+![](RackMultipart20221216-1-2rpgig_html_7b6b80aceb669f3d.png)
 _Serial Output_
 
 As you can see in the above two images, I was able to read data from the CAN bus. The data being transferred on the CAN bus is just a basic counter in the last byte.
 
 #### Sending Data using the UDP Protocol
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image005.png)
+![](RackMultipart20221216-1-2rpgig_html_f8c5cfa0ad9eba2f.png)
 _UDP Send Test code snippet_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image006.png)
+![](RackMultipart20221216-1-2rpgig_html_d00ab4bfb89ca0ae.png)
 _Console output on the server_
 
 #### Receiving CAN Data and Sending it Using the UDP Protocol
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image007.png)
+![](RackMultipart20221216-1-2rpgig_html_14a3b8752b580bbe.png)
 _CAN data receive and send code snippet._
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image008.png)
+![](RackMultipart20221216-1-2rpgig_html_ffbed329621d28a9.png)
  _Console output on the server._
 
 # Design Implementation
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image009.png)
+![](RackMultipart20221216-1-2rpgig_html_ab148a38d845cccf.png)
 _Schematic for the Microprocessor and CAN Chips_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image010.png)
+![](RackMultipart20221216-1-2rpgig_html_e6e4a2f25057ed04.png)
 _PCB Layout for the Microprocessor and CAN Chips_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image011.png)
+![](RackMultipart20221216-1-2rpgig_html_d800300eeb6f0c1f.png)
 _Schematic for the ethernet module_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image012.png)
+![](RackMultipart20221216-1-2rpgig_html_f4b1748986603c65.png)
 _Schematic for the ethernet module_
 
 # Design Testing
 
 ### Assembled Boards
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image013.png)
+![](RackMultipart20221216-1-2rpgig_html_eba9d4cbc2120f0e.jpg)
 _Main board with ATMEGA328 and CAN Chips_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image014.png)
+![](RackMultipart20221216-1-2rpgig_html_bbcbf5e6a3e46815.jpg)
 _Ethernet Board_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image015.png)
+![](RackMultipart20221216-1-2rpgig_html_67c8b747467f187.jpg)
 _Underside of Ethernet board_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image016.png)
+![](RackMultipart20221216-1-2rpgig_html_7bd2d6e235ccfaa2.jpg)
 _Plugging in the ethernet boards to the main board_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image017.png)
+![](RackMultipart20221216-1-2rpgig_html_2549ea4a3022122d.jpg)
 _The complete stack_
 
 ### Testing
 
 To test out the system I carried out the same tests that I did when initially prototyping the system. I used another development board to simulate the CAN bus on a vehicle and send CAN messages to my Vehicle Telemetry Module. I sent a basic message with a counter that sends an integer from 0 to 15 in the last byte of the CAN message. The development board that is set to simulate the car is set to send a CAN message every 50 milliseconds.
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image018.png)
+![](RackMultipart20221216-1-2rpgig_html_bdcf08aac27d0ac8.jpg)
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image019.png)
+![](RackMultipart20221216-1-2rpgig_html_cd6259d7b849a244.png)
 _The test setup_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image020.png)
+![](RackMultipart20221216-1-2rpgig_html_fcba00aea4b75dab.png)
  _Code for the CAN dev-board that is simulating the car_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image021.png)
+![](RackMultipart20221216-1-2rpgig_html_e11f310c312acc48.png)
  _Console output of the running code_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image022.png)
+![](RackMultipart20221216-1-2rpgig_html_669abf7f585938c6.png)
  _Basic MATLAB Script reading broadcasted data from the server_
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image023.png)
+![](RackMultipart20221216-1-2rpgig_html_3099cfbf9ca53547.jpg)
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image024.png)
+![](RackMultipart20221216-1-2rpgig_html_4e30b47d2fba01e5.jpg)
  _3D printed enclosure for the Vehicle Telemetry Module_
 
 # Summary, Conclusions and Future Work
