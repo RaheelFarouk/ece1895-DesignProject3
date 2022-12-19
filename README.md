@@ -45,7 +45,9 @@ For the initial prototype stage, I used an Arduino UNO with the Ethernet shield 
 
 ![](/Media/ReadmeImages/image002.png)
 
+
 ![](/Media/ReadmeImages/image004.jpg)
+
 
 ## Software
 
@@ -57,9 +59,11 @@ I split this prototyping stage up into three parts. Firstly, I got the Arduino t
 
 _Receive Code Snippet_
 
+
 ![](/Media/ReadmeImages/image008.png)
 
 _Serial Output_
+
 
 As you can see in the above two images, I was able to read data from the CAN bus. The data being transferred on the CAN bus is just a basic counter in the last byte.
 
@@ -69,9 +73,11 @@ As you can see in the above two images, I was able to read data from the CAN bus
 
 _UDP Send Test code snippet_
 
+
 ![](/Media/ReadmeImages/image012.png)
 
 _Console output on the server_
+
 
 #### Receiving CAN Data and Sending it Using the UDP Protocol
 
@@ -79,9 +85,11 @@ _Console output on the server_
 
 _CAN data receive and send code snippet._
 
+
 ![](/Media/ReadmeImages/image016.png)
 
  _Console output on the server._
+
 
 # Design Implementation
 
@@ -89,17 +97,21 @@ _CAN data receive and send code snippet._
 
 _Schematic for the Microprocessor and CAN Chips_
 
+
 ![](/Media/ReadmeImages/image020.png)
 
 _PCB Layout for the Microprocessor and CAN Chips_
+
 
 ![](/Media/ReadmeImages/image022.png)
 
 _Schematic for the ethernet module_
 
+
 ![](/Media/ReadmeImages/image024.jpg)
 
 _Schematic for the ethernet module_
+
 
 # Design Testing
 
@@ -109,21 +121,26 @@ _Schematic for the ethernet module_
 
 _Main board with ATMEGA328 and CAN Chips_
 
+
 ![](/Media/ReadmeImages/image028.jpg)
 
 _Ethernet Board_
+
 
 ![](/Media/ReadmeImages/image030.jpg)
 
 _Underside of Ethernet board_
 
+
 ![](/Media/ReadmeImages/image032.jpg)
 
 _Plugging in the ethernet boards to the main board_
 
+
 ![](/Media/ReadmeImages/image034.jpg)
 
 _The complete stack_
+
 
 ### Testing
 
@@ -131,27 +148,34 @@ To test out the system I carried out the same tests that I did when initially pr
 
 ![](/Media/ReadmeImages/image036.png)
 
+
 ![](/Media/ReadmeImages/image038.png)
 
 _The test setup_
+
 
 ![](/Media/ReadmeImages/image040.png)
 
  _Code for the CAN dev-board that is simulating the car_
 
+
 ![](/Media/ReadmeImages/image042.png)
 
  _Console output of the running code_
+
 
 ![](/Media/ReadmeImages/image044.png)
 
  _Basic MATLAB Script reading broadcasted data from the server_
 
+
 ![](/Media/ReadmeImages/image046.jpg)
+
 
 ![](/Media/ReadmeImages/image048.jpg)
 
  _3D printed enclosure for the Vehicle Telemetry Module_
+ 
 
 # Summary, Conclusions and Future Work
 
