@@ -45,7 +45,7 @@ For the initial prototype stage, I used an Arduino UNO with the Ethernet shield 
 
 ![](/Media/ReadmeImages/image001.png)
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image003.png)
+![](/Media/ReadmeImages/image003.jpg)
 
 ## Software
 
