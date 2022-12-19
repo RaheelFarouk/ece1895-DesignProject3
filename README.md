@@ -54,6 +54,7 @@ I split this prototyping stage up into three parts. Firstly, I got the Arduino t
 #### Reading CAN data using the Arduino
 
 ![](/Media/ReadmeImages/image006.png)
+
 _Receive Code Snippet_
 
 ![](/Media/ReadmeImages/image008.png)
