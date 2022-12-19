@@ -179,4 +179,8 @@ _The test setup_
 
 # Summary, Conclusions and Future Work
 
-In summary, the system works as it is intended. A few things that I would like to accomplish in the future is to make both my PCBs smaller and also possibly integrate it into one PCB. I had not taken into account the height and positions of certain components and had to therefore bend some components out of the way; this is something that I intent to fix in future versions. Another thing I would like to do is test out the data transfer rate at which messages are starting to be missed or lost. A future addition to the server-side code is to add a GUI and to make a client software to analyse the data.
+In summary, the system works as it is intended. A few things that I would like to accomplish in the future is to make both my PCBs smaller and also possibly integrate it into one PCB. I had not taken into account the height and positions of certain components and had to therefore bend some components out of the way; this is something that I intent to fix in future versions. Another thing I would like to do is test out the data transfer rate at which messages are starting to be missed or lost. A future addition to the server-side code is to add a GUI and to make a client software to analyse the data. 
+
+# Folder Structure
+
+All the code for the live telemetry system is in the *Code* folder, the Vehicle Telemetry Code is inside the *Car* folder, the server code in the *Server* folder and the client code in the *Client* folder. The Altium PCB projects and enclosure CAD files are in the hardware folder. Any reference documents, schematics and libraries are in the *Datasheets and Reference Docs* folder. 
