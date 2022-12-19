@@ -108,9 +108,9 @@ _PCB Layout for the Microprocessor and CAN Chips_
 _Schematic for the ethernet module_
 
 
-![](/Media/ReadmeImages/image024.jpg)
+![](/Media/ReadmeImages/image024.png)
 
-_Schematic for the ethernet module_
+_PCB Layout for the ethernet module_
 
 
 # Design Testing
