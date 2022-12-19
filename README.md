@@ -43,9 +43,9 @@ At this time, I haven't decided what to do with the client-side interface; howev
 
 For the initial prototype stage, I used an Arduino UNO with the Ethernet shield and the CAN shield.
 
-![](/Media/ReadmeImages/image001.png)
+![](/Media/ReadmeImages/image002.png)
 
-![](/Media/ReadmeImages/image003.jpg)
+![](/Media/ReadmeImages/image004.jpg)
 
 ## Software
 
@@ -53,84 +53,84 @@ I split this prototyping stage up into three parts. Firstly, I got the Arduino t
 
 #### Reading CAN data using the Arduino
 
-![](https://github.com/RaheelFarouk/ece1895-DesignProject3/blob/main/Media/ReadmeImages/image005.jpg)
+![](/Media/ReadmeImages/image006.png)
 _Receive Code Snippet_
 
-![](RackMultipart20221216-1-2rpgig_html_7b6b80aceb669f3d.png)
+![](/Media/ReadmeImages/image008.png)
 _Serial Output_
 
 As you can see in the above two images, I was able to read data from the CAN bus. The data being transferred on the CAN bus is just a basic counter in the last byte.
 
 #### Sending Data using the UDP Protocol
 
-![](RackMultipart20221216-1-2rpgig_html_f8c5cfa0ad9eba2f.png)
+![](/Media/ReadmeImages/image010.png)
 _UDP Send Test code snippet_
 
-![](RackMultipart20221216-1-2rpgig_html_d00ab4bfb89ca0ae.png)
+![](/Media/ReadmeImages/image012.png)
 _Console output on the server_
 
 #### Receiving CAN Data and Sending it Using the UDP Protocol
 
-![](RackMultipart20221216-1-2rpgig_html_14a3b8752b580bbe.png)
+![](/Media/ReadmeImages/image014.png)
 _CAN data receive and send code snippet._
 
-![](RackMultipart20221216-1-2rpgig_html_ffbed329621d28a9.png)
+![](/Media/ReadmeImages/image016.png)
  _Console output on the server._
 
 # Design Implementation
 
-![](RackMultipart20221216-1-2rpgig_html_ab148a38d845cccf.png)
+![](/Media/ReadmeImages/image018.png)
 _Schematic for the Microprocessor and CAN Chips_
 
-![](RackMultipart20221216-1-2rpgig_html_e6e4a2f25057ed04.png)
+![](/Media/ReadmeImages/image020.png)
 _PCB Layout for the Microprocessor and CAN Chips_
 
-![](RackMultipart20221216-1-2rpgig_html_d800300eeb6f0c1f.png)
+![](/Media/ReadmeImages/image022.png)
 _Schematic for the ethernet module_
 
-![](RackMultipart20221216-1-2rpgig_html_f4b1748986603c65.png)
+![](/Media/ReadmeImages/image024.jpg)
 _Schematic for the ethernet module_
 
 # Design Testing
 
 ### Assembled Boards
 
-![](RackMultipart20221216-1-2rpgig_html_eba9d4cbc2120f0e.jpg)
+![](/Media/ReadmeImages/image026.jpg)
 _Main board with ATMEGA328 and CAN Chips_
 
-![](RackMultipart20221216-1-2rpgig_html_bbcbf5e6a3e46815.jpg)
+![](/Media/ReadmeImages/image028.jpg)
 _Ethernet Board_
 
-![](RackMultipart20221216-1-2rpgig_html_67c8b747467f187.jpg)
+![](/Media/ReadmeImages/image030.jpg)
 _Underside of Ethernet board_
 
-![](RackMultipart20221216-1-2rpgig_html_7bd2d6e235ccfaa2.jpg)
+![](/Media/ReadmeImages/image032.jpg)
 _Plugging in the ethernet boards to the main board_
 
-![](RackMultipart20221216-1-2rpgig_html_2549ea4a3022122d.jpg)
+![](/Media/ReadmeImages/image034.jpg)
 _The complete stack_
 
 ### Testing
 
 To test out the system I carried out the same tests that I did when initially prototyping the system. I used another development board to simulate the CAN bus on a vehicle and send CAN messages to my Vehicle Telemetry Module. I sent a basic message with a counter that sends an integer from 0 to 15 in the last byte of the CAN message. The development board that is set to simulate the car is set to send a CAN message every 50 milliseconds.
 
-![](RackMultipart20221216-1-2rpgig_html_bdcf08aac27d0ac8.jpg)
+![](/Media/ReadmeImages/image036.png)
 
-![](RackMultipart20221216-1-2rpgig_html_cd6259d7b849a244.png)
+![](/Media/ReadmeImages/image038.png)
 _The test setup_
 
-![](RackMultipart20221216-1-2rpgig_html_fcba00aea4b75dab.png)
+![](/Media/ReadmeImages/image040.png)
  _Code for the CAN dev-board that is simulating the car_
 
-![](RackMultipart20221216-1-2rpgig_html_e11f310c312acc48.png)
+![](/Media/ReadmeImages/image042.png)
  _Console output of the running code_
 
-![](RackMultipart20221216-1-2rpgig_html_669abf7f585938c6.png)
+![](/Media/ReadmeImages/image044.png)
  _Basic MATLAB Script reading broadcasted data from the server_
 
-![](RackMultipart20221216-1-2rpgig_html_3099cfbf9ca53547.jpg)
+![](/Media/ReadmeImages/image046.jpg)
 
-![](RackMultipart20221216-1-2rpgig_html_4e30b47d2fba01e5.jpg)
+![](/Media/ReadmeImages/image048.jpg)
  _3D printed enclosure for the Vehicle Telemetry Module_
 
 # Summary, Conclusions and Future Work
